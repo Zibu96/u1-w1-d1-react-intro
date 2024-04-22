@@ -9,6 +9,7 @@
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
+    margin-top: 3rem;
     animation: App-logo-spin infinite 20s linear;
   }
 }
@@ -35,4 +36,49 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.nav {
+  background-color: #282c34;
+  border-bottom: 2px solid white;
+  height: 60px;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 2;
+}
+
+.vault-img {
+  width: 500px;
+  height: auto;
+}
+
+.list {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin: 0;
+  height: 60px;
+}
+
+.allTheA {
+  text-decoration: none;
+  color: aqua;
+}
+
+.liBtn {
+  margin-left: auto;
+  margin-right: 3rem;
+}
+
+.btn {
+  box-sizing: border-box;
+  border: transparent;
+  border-radius: 8px;
+  color: white;
+  background-color: rgb(65, 5, 5);
+  padding: 10px;
+  cursor: pointer;
 }
